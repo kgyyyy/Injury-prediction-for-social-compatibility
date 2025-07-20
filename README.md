@@ -137,7 +137,7 @@ Weighted by hyperparameters `ratio_E`, `ratio_D`.
 | **RMSE / MAE** | Standard regression error metrics for HIC. |
 | **R²** | Coefficient of determination for HIC regression. |
 | **Accuracy** | Correct AIS predictions / total. |
-| **G-mean** | \((\prod_{c} 	ext{Sensitivity}_c)^{1/C}\) – robust to imbalance. |
+| **G-mean** | $\left( \prod_{c} \text{Sensitivity}_c \right)^{\frac{1}{C}}$ – robust to imbalance|
 | **FLOPs** | Multiply–add operations estimated via `thop.profile`. |
 | **Parameters** | Trainable parameter count. |
 | **Inference Time** | Mean ± std per sample at `batch_size=1`. |
