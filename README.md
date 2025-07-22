@@ -71,7 +71,7 @@ conda create -n InjPred python=3.9
 conda activate InjPred
 pip install -r requirements.txt
 ```
-
+Ensure you have a working PyTorch environment
 
 ---
 
